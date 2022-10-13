@@ -41,16 +41,7 @@ ul li{
 	padding: 10px;
 }
 
-section{
-	position: relative;
-    top: 150px;
-	left: 25%;
-	height: 700px;
-	width: 50%;
-    box-sizing: border-box;
-	margin: center;
-	display: block;
-}
+
 section h1{
 	font-size: 3.0vw;
 	text-shadow: 2px 2px 5px rgb(39, 102, 120);
