@@ -5,10 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Static Portfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-	integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<script src="https://kit.fontawesome.com/8719ad00a7.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
@@ -16,19 +15,19 @@
 <body>
 	<header>
 		<div class="logo">
-			<img src="img/sunsetwallpaper.jpg" alt="">
+			<img src="img/logopng.png" alt="">
 		</div>
 		<button class="nav_toggle" aria-label="toggle navigation">
 			<span class="hamburger"></span>
 		</button>
-	<nav class="nav">
-		<ul class="nav__list">
-			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-			<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-			<li class="nav__item"><a href="#services" class="nav__link">Work</a></li>
-			<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-		</ul>
-	</nav>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<!-- Introduction -->
@@ -36,15 +35,13 @@
 		<h1 class="section__title section__title--intro">
 			Hi, I am <strong>Oluwafemi Ajanaku</strong>
 		</h1>
-		<p class="section__subtitle section__subtitle--intro">front-end developer</p>
-		<img src="img/guy_at_desk.jpg" alt="smiling" class="intro__img">
-	</section>
+		<p class="section__subtitle section__subtitle--intro">front-end dev</p>
+		<img src="img/leaves.jpg" alt="desk" class="intro__img">
+	</section> 
 
 	<!-- My Services -->
 		<section class="my-services" id="services">
-			<h2>
-				What I do
-			</h2>
+			<h2 class="section__title section__title--services">What I do</h2>
 			<div class="services">
 				<div class="service">
 					<h3>Design + Development</h3>
@@ -54,7 +51,7 @@
 						 Porro esse assumenda totam. Repellat, quae laborum!</p>	
 				 </div> <!-- service -->
 			
-				<div class="service">
+				<!-- <div class="service">
 					<h3>E-commerce</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 						Fugit, quae cupiditate. Blanditiis hic odio eveniet ali
@@ -62,53 +59,104 @@
 						 Porro esse assumenda totam. Repellat, quae laborum!</p>	
 				</div> <!-- service -->
 				
-				<div class="service">
+				<!-- <div class="service">
 						<h3>WordPress</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Fugit, quae cupiditate. Blanditiis hic odio eveniet ali
 							quid voluptates quae tempora, quaerat possimus molestias iure!
 							 Porro esse assumenda totam. Repellat, quae laborum!</p>	
-					</div> <!-- service -->
+					</div> -->
 			</div> <!-- services -->
 
-			<a href="#" class="btn">My Work</a>
+			<a href="#work" class="btn">My Work</a>
 		</section>
 
 	<!-- About Me -->
 	<section class="about-me" id="about">
 		<h2 class="section__title section__title--about">Who I am</h2>
-		<p class="section__subtitle section__subtitle--about"></p>
+		<p class="section__subtitle section__subtitle--about">front-end dev based in Nigeria</p>
 
 		<div class="about-me__body">
-			<p></p>
-			<p></p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam optio beatae aliquam iusto, eaque reprehenderit. Ab tempore, nemo at praesentium excepturi cumque reprehenderit modi impedit, suscipit illo fugiat quidem.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique illo culpa officiis iusto nam sit dicta asperiores perspiciatis officia, adipisci, quos deleniti iste ut quasi vel aliquam ducimus quam?</p>
 		</div>
 
-		<img src="img/guy_at_desk.jpg" alt="about-me-image">
+		<img src="img/cliff.jpg" alt="about-me-image" class="about-me__img">
 	</section>
 
 	<!-- My Work -->
 	<section class="my-work" id="work">
-		<h2 class="scetion__title">My Work</h2>
-		<p class="section__subtitle"></p>
+		<h2 class="section__title section__title--work">My Work</h2>
+		<p class="section__subtitle section__subtitle--work">A gallery of my work</p>
 
 		<div class="portfolio">
 			<!-- Portfolio item 01 -->
 			<a href="s" class="portfolio__item">
-				<img src="img/guy_at_desk.jpg" alt="" class="portfolio__img">
+				<img src="img/blackcat.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 02 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/asiangirl.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 03 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/blackmanwaterfall.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 04 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/blacktreewhtbg.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 05 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/cleanwkspace.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 06 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/dashboard.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 07 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/cliff.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 08 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/seo.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 09 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/steal.jpg" alt="" class="portfolio__img">
+			</a>
+			<!-- Portfolio item 10 -->
+			<a href="s" class="portfolio__item">
+				<img src="img/window.jpg" alt="" class="portfolio__img">
 			</a>
 		</div>
-
 	</section>
 
 	<!-- Footer -->
-	<Footer>
-		<a href="https://stanleyajanaku@gmail.com" class="footer__link">hello@femi.dev</a>
+	<Footer class="footer">
+		<a href="mailto:stanleyajanaku@gmail.com" class="footer__link">hello@femi.dev</a>
 		<ul class="social-list">
-			<li class="social-list__item"><a class="social-list__link" href="https://codepen.io">codepen</a></li>
-			<li class="social-list__item"><a class="social-list__link" href="https://linkedin.com">linkedin</a></li>
-			<li class="social-list__item"><a class="social-list__link" href="https://twitter.com">twitter</a></li>
-			<li class="social-list__item"><a class="social-list__link" href="https://github.com">github</a></li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://codepen.io">
+					<i class="fa-brands fa-codepen"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://linkedin.com">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://twitter.com">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://github.com">
+					<i class="fa-brands fa-github"></i>
+				</a>
+			</li>
 		</ul>
 	</Footer>
 </body>
